@@ -1,0 +1,54 @@
+
+# ==================================
+# Large input datasets
+# ==================================
+
+Project1_quick_bed_sort/data/
+Project2_Rescale_to_Reference/data/
+Project3_Vplot/data/
+Project4_TCGA_RNAseq_Analysis/data/
+
+# ==================================
+# Python environments and cache
+# ==================================
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ==================================
+# R temporary files
+# ==================================
+
+.Rhistory
+.RData
+.Rproj.user/
+
+# ==================================
+# System and editor files
+# ==================================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*:Zone.Identifier
+
+# ==================================
+# Temporary files
+# ==================================
+
+*.tmp
+*.log
+
+# Python virtual environments (inside any project)
+**/.venv/
+
+# Large generated genomic outputs
+Project1_quick_bed_sort/sorted_bed_file_per_sample/
+Project2_Rescale_to_Reference/results/rescaled.bed.gz
+
+# Generated R output and Python cache
+Rplots.pdf
+**/__pycache__/
